@@ -70,9 +70,7 @@ body {
 @media screen and (max-width: 480px) {
   html, body {
     min-width: 320px; } }
-
-html {
-  box-sizing: border-box; }
+    
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -1879,6 +1877,8 @@ button,
       #main > .inner > section {
         padding: 3em 0 1em 0 ; } }
 
+        
+
 /* Sidebar */
 #search form {
   text-decoration: none;
@@ -2106,6 +2106,39 @@ button,
         position: absolute;
         right: -0.5em;
         top: 0; } }
+        img.one {
+          height: 50%;
+          width: 50%;
+        }
+        .dropbtn {
+          background-color: #4CAF50;
+          color: white;
+          padding: 16px;
+          font-size: 16px;
+          border: none;
+        }
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f1f1f1;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .dropdown:hover .dropdown-content {display: block;}
 
 /* Banner */
 #banner {
